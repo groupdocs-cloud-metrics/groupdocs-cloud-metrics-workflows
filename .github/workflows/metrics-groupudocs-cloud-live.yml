@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   # Scheduled trigger
   schedule:
-    #- cron: '59 */3 * * *'
+  - cron: '59 */3 * * *'
   
     # Triggers the workflow on push or pull request events but only for the master branch
   #push:
